@@ -31,25 +31,19 @@ Algorithm Visualizer is a web application built with Flask that allows users to 
 
 ## Installation
 
-1. Clone the repository:
+1. Navigate to the project directory:
 
     ```bash
-    git clone https://github.com/yourusername/algorithm-visualizer.git
+    cd AlgorithmVisualizer
     ```
 
-2. Navigate to the project directory:
-
-    ```bash
-    cd algorithm-visualizer
-    ```
-
-3. Create a virtual environment:
+2. Create a virtual environment:
 
     ```bash
     python -m venv venv
     ```
 
-4. Activate the virtual environment:
+3. Activate the virtual environment:
 
     - On Windows:
 
@@ -63,19 +57,19 @@ Algorithm Visualizer is a web application built with Flask that allows users to 
         source venv/bin/activate
         ```
 
-5. Install the required packages:
+4. Install the required packages:
 
     ```bash
-    pip install -r requirements.txt
+    pip install flask
     ```
 
-6. Run the application:
+5. Run the application:
 
     ```bash
-    python app.py
+    flask --app app run
     ```
 
-7. Open your browser and go to `http://127.0.0.1:5000/`.
+6. Open your browser and go to `http://127.0.0.1:5000/`.
 
 ## Project Structure
 
@@ -93,9 +87,13 @@ Algorithm Visualizer is a web application built with Flask that allows users to 
 2. The application will redirect to the visualization page, where you can see the sorting process.
 3. Click the "Start Sorting" button to begin the visualization.
 
-## Contributing
+## Contributors
 
-Contributions are welcome! Please create an issue or submit a pull request with your changes.
+This project has been made possible by the contributions of:
+
+- Animesh Singh(`221030360`)
+- Aastha Bansal(`221030380`)
+- Samson Vincent Julius(`221030381`)
 
 ## License
 
@@ -103,4 +101,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Enjoy visualizing sorting algorithms! If you have any questions or feedback, feel free to contact us at your-email@example.com.
+Enjoy visualizing sorting algorithms! If you have any questions or feedback, feel free to contact us at 221030381@juitsolan.in.
